@@ -2,7 +2,7 @@
 var hen,henImage;
 var basket,basketimage;
 var egg, eggimage,eggGroup,eggsound;
-
+var basket1;
 var ground,score,life;
 
 var gameState="start"; 
@@ -25,6 +25,12 @@ function setup() {
  basket  = createSprite(200,390,10,10);
  basket.addImage(basketimage);
  basket.debug =true;
+
+ basket1 = createSprite(100,390,10,10);
+ basket1.addImage(basketimage);
+ basket1.debug =true;
+
+
   ground = createSprite(250,400,500,20)
   ground.shapeColor ="green";
 
